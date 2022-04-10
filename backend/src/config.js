@@ -74,7 +74,7 @@ const PRESALE_WHITELISTED_ADDRESSES = ["0x2440a74CB17c5CF934851b9bcD241328C0c69C
 let CONTRACT_ADDRESS = "0x2e3B959F382E86455E129376ce28A3766faF5142"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "which Nut will you play Host to?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeiezr3p5hftau23smcofjcgnjz3tsaim3kmokzdqn3n6ksepdcbgbu"; // Replace with your generic image that will display for all NFTs pre-reveal.
